@@ -1,0 +1,5 @@
+\beamer@sectionintoc {1}{Projet pratique}{3}{0}{1}
+\beamer@sectionintoc {2}{Révision des concepts clés}{5}{0}{2}
+\beamer@sectionintoc {3}{Conseils pour approfondir}{8}{0}{3}
+\beamer@sectionintoc {4}{Questions et réponses}{9}{0}{4}
+\beamer@sectionintoc {5}{Résumé du cours}{10}{0}{5}

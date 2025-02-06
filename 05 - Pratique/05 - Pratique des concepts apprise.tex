@@ -1,0 +1,156 @@
+\documentclass{beamer}
+\usepackage{minted}
+\usepackage{xcolor}
+\usetheme{Madrid}
+\setbeamertemplate{navigation symbols}{}
+
+
+
+% Configuration pour minted
+\definecolor{bgcolor}{rgb}{0.95, 0.95, 0.92}
+\setminted{
+    bgcolor=bgcolor,
+    frame=lines,
+    framesep=2mm,
+    linenos=true,
+    fontsize=\footnotesize
+}
+\title{Projet pratique et révision}
+\institute{Mali\_Code}
+\date{12 février 2025}
+\author{ \textbf{KELLY} Abdoulaye}
+
+\begin{document}
+
+\begin{frame}
+    \titlepage
+    \end{frame}
+    
+    \begin{frame}{Plan Projet pratique et révision}
+    \tableofcontents
+    \end{frame}
+    
+    \section{Projet pratique}
+    \begin{frame}{Projet pratique}
+    \begin{itemize}
+        \item Création d'une application web simple.
+        \item Intégration des concepts appris pendant le cours :
+            \begin{itemize}
+                \item Manipulation du DOM.
+                \item Gestion des événements.
+                \item Requêtes HTTP avec `fetch`.
+                \item Utilisation de `async/await`.
+            \end{itemize}
+        \item Travail en petits groupes ou individuellement.
+    \end{itemize}
+    \end{frame}
+    
+    \begin{frame}[fragile]{Exemple de projet}
+    \begin{minted}{html}
+    <!-- Structure HTML -->
+    <div id="app">
+        <h1>Générateur de citations</h1>
+        <button id="bouton">Générer une citation</button>
+        <p id="citation"></p>
+    </div>
+    \end{minted}
+    
+    \begin{minted}{javascript}
+    // JavaScript
+    const bouton = document.getElementById("bouton");
+    const citation = document.getElementById("citation");
+    bouton.addEventListener("click", async () => {
+    try {
+        const reponse = await fetch("https://api.quotable.io/random");
+         const data = await reponse.json();
+        citation.textContent = data.content;
+    } catch (erreur) {
+    citation.textContent = "Erreur lors de la récupération de la citation.";
+        }
+    });
+    \end{minted}
+    \end{frame}
+    
+    \section{Révision des concepts clés}
+    \begin{frame}{Révision des concepts clés}
+    \begin{itemize}
+        \item \textbf{JavaScript de base} : variables, fonctions, structures de contrôle.
+        \item \textbf{Manipulation du DOM} : sélection, modification, gestion des événements.
+        \item \textbf{JavaScript moderne} : ES6+, promesses, `async/await`.
+        \item \textbf{Requêtes HTTP} : utilisation de `fetch`.
+    \end{itemize}
+    \end{frame}
+    
+    \begin{frame}[fragile]{Rappel sur les promesses}
+    \begin{minted}{javascript}
+    const maPromesse = new Promise((resolve, reject) => {
+        setTimeout(() => {
+            const succes = true;
+            if (succes) {
+                resolve("Succès !");
+            } else {
+                reject("Échec !");
+            }
+        }, 1000);
+    });
+    
+    maPromesse
+        .then(resultat => console.log(resultat))
+        .catch(erreur => console.error(erreur));
+    \end{minted}
+    \end{frame}
+    
+    \begin{frame}[fragile]{Rappel sur async/await}
+    \begin{minted}{javascript}
+    async function fetchData() {
+        try {
+            const reponse = await fetch("https://api.example.com/data");
+            const data = await reponse.json();
+            console.log(data);
+        } catch (erreur) {
+            console.error("Erreur :", erreur);
+        }
+    }
+    
+    fetchData();
+    \end{minted}
+    \end{frame}
+    
+    \section{Conseils pour approfondir}
+    \begin{frame}{Conseils pour approfondir}
+    \begin{itemize}
+        \item Pratiquer régulièrement sur des plateformes comme :
+            \begin{itemize}
+                \item \textbf{freeCodeCamp} : https://www.freecodecamp.org/
+                \item \textbf{LeetCode} : https://leetcode.com/
+                \item \textbf{Codewars} : https://www.codewars.com/
+            \end{itemize}
+        \item Explorer des frameworks JavaScript comme React, Vue.js ou Angular.
+        \item Contribuer à des projets open source sur GitHub.
+    \end{itemize}
+    \end{frame}
+    
+    \section{Questions et réponses}
+    \begin{frame}{Questions et réponses}
+    \begin{center}
+    \Large Une séance de questions-réponses pour clarifier les derniers points.
+    \end{center}
+    \end{frame}
+    
+    \section{Résumé du cours}
+    \begin{frame}{Résumé du cours}
+    \begin{itemize}
+        \item Introduction à JavaScript et à son écosystème.
+        \item Manipulation du DOM et gestion des événements.
+        \item Concepts modernes : ES6+, promesses, `async/await`.
+        \item Requêtes HTTP avec `fetch`.
+        \item Réalisation d'un projet pratique.
+    \end{itemize}
+    \end{frame}
+    
+    \begin{frame}{Merci !}
+    \begin{center}
+    \Large Merci pour votre participation et bon courage pour la suite !
+    \end{center}
+    \end{frame}
+    \end{document}

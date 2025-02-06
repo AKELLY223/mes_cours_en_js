@@ -1,0 +1,5 @@
+\beamer@sectionintoc {1}{Introduction au DOM}{3}{0}{1}
+\beamer@sectionintoc {2}{Manipulation du DOM}{5}{0}{2}
+\beamer@sectionintoc {3}{Gestion des événements}{7}{0}{3}
+\beamer@sectionintoc {4}{Validation de formulaire}{9}{0}{4}
+\beamer@sectionintoc {5}{Résumé sur Manipulation du DOM et événements}{11}{0}{5}

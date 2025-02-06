@@ -1,0 +1,14 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{// Création d\PYGZsq{}un tableau}
+\PYG{k+kd}{let}\PYG{+w}{ }\PYG{n+nx}{fruits}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}pomme\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}banane\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}orange\PYGZdq{}}\PYG{p}{];}
+
+\PYG{c+c1}{// Ajout d\PYGZsq{}un élément}
+\PYG{n+nx}{fruits}\PYG{p}{.}\PYG{n+nx}{push}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}kiwi\PYGZdq{}}\PYG{p}{);}
+
+\PYG{c+c1}{// Suppression du dernier élément}
+\PYG{n+nx}{fruits}\PYG{p}{.}\PYG{n+nx}{pop}\PYG{p}{();}
+
+\PYG{c+c1}{// Transformation avec map}
+\PYG{k+kd}{let}\PYG{+w}{ }\PYG{n+nx}{longueurs}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nx}{fruits}\PYG{p}{.}\PYG{n+nx}{map}\PYG{p}{(}\PYG{n+nx}{fruit}\PYG{+w}{ }\PYG{p}{=\PYGZgt{}}\PYG{+w}{ }\PYG{n+nx}{fruit}\PYG{p}{.}\PYG{n+nx}{length}\PYG{p}{);}
+\PYG{n+nx}{console}\PYG{p}{.}\PYG{n+nx}{log}\PYG{p}{(}\PYG{n+nx}{longueurs}\PYG{p}{);}\PYG{+w}{ }\PYG{c+c1}{// [5, 6, 6]}
+\end{Verbatim}

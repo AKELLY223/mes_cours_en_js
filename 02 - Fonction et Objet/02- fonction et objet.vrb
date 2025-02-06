@@ -1,0 +1,15 @@
+\frametitle{Exemple de tableau}
+\begin{minted}{javascript}
+// Création d'un tableau
+let fruits = ["pomme", "banane", "orange"];
+
+// Ajout d'un élément
+fruits.push("kiwi");
+
+// Suppression du dernier élément
+fruits.pop();
+
+// Transformation avec map
+let longueurs = fruits.map(fruit => fruit.length);
+console.log(longueurs); // [5, 6, 6]
+\end{minted}

@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{+w}{    }\PYG{c+c1}{// Accéder à un élément par son ID}
+\PYG{+w}{    }\PYG{k+kd}{let}\PYG{+w}{ }\PYG{n+nx}{message}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nb}{document}\PYG{p}{.}\PYG{n+nx}{getElementById}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}message\PYGZdq{}}\PYG{p}{);}
+\PYG{+w}{    }\PYG{n+nx}{console}\PYG{p}{.}\PYG{n+nx}{log}\PYG{p}{(}\PYG{n+nx}{message}\PYG{p}{.}\PYG{n+nx}{textContent}\PYG{p}{);}\PYG{+w}{ }\PYG{c+c1}{// \PYGZdq{}Bonjour, monde !\PYGZdq{}}
+\end{Verbatim}

@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{// Déclaration d\PYGZsq{}une fonction}
+\PYG{k+kd}{function}\PYG{+w}{ }\PYG{n+nx}{direBonjour}\PYG{p}{(}\PYG{n+nx}{nom}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{k}{return}\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}Bonjour, \PYGZdq{}}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{n+nx}{nom}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}!\PYGZdq{}}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}
+
+\PYG{c+c1}{// Appel de la fonction}
+\PYG{k+kd}{let}\PYG{+w}{ }\PYG{n+nx}{message}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nx}{direBonjour}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Alice\PYGZdq{}}\PYG{p}{);}
+\PYG{n+nx}{console}\PYG{p}{.}\PYG{n+nx}{log}\PYG{p}{(}\PYG{n+nx}{message}\PYG{p}{);}\PYG{+w}{ }\PYG{c+c1}{// \PYGZdq{}Bonjour, Alice!\PYGZdq{}}
+\end{Verbatim}

@@ -1,0 +1,126 @@
+\documentclass{beamer}
+\usepackage{minted}
+\usepackage{xcolor}
+\usetheme{Madrid}
+\setbeamertemplate{navigation symbols}{}% Remove navigation symbols
+
+
+% Configuration pour minted
+\definecolor{bgcolor}{rgb}{0.95, 0.95, 0.92}
+\setminted{
+    bgcolor=bgcolor,
+    frame=lines,
+    framesep=2mm,
+    linenos=true,
+    fontsize=\footnotesize
+}
+
+\title{Introduction à JavaScript}
+\author{\textbf{KELLY}  Abdoulaye}
+\institute{\textit{Mali\_Code}}
+\date{mlcode223@gmail.com}
+
+\begin{document}
+
+\frame{\titlepage}
+
+% Slide 1 : Présentation du langage JavaScript
+\begin{frame}{Qu'est-ce que JavaScript ?}
+\begin{itemize}
+    \item JavaScript est un langage de programmation orienté web.
+    \item Il permet d'ajouter de l'interactivité aux pages web.
+    \item Il s'exécute côté client dans les navigateurs web.
+    \item Compatible avec HTML et CSS pour le développement web.
+\end{itemize}
+\end{frame}
+
+\section{Installation des outils}
+\begin{frame}{Installation des outils}
+\begin{itemize}
+    \item Navigateur web (Chrome, Firefox).
+    \item Éditeur de code (VS Code, Sublime Text).
+    \item Console développeur (F12 dans le navigateur).
+\end{itemize}
+\end{frame}
+
+\section{Syntaxe de base}
+\begin{frame}{Syntaxe de base}
+\begin{itemize}
+    \item Variables : \mintinline{javascript}{let}, \mintinline{javascript}{const}, \mintinline{javascript}{var}.
+    \item Types de données : nombres, chaînes, booléens, etc.
+    \item Opérateurs : arithmétiques, de comparaison, logiques.
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Exemple de code}
+\begin{minted}{javascript}
+// Déclaration de variables
+let message = "Bonjour, JavaScript!";
+const PI = 3.14;
+
+// Affichage dans la console
+console.log(message);
+
+// Opérations de base
+let a = 5;
+let b = 10;
+let somme = a + b;
+console.log("La somme est : " + somme);
+\end{minted}
+\end{frame}
+
+
+
+\section{Structures de contrôle}
+\begin{frame}{Structures de contrôle}
+\begin{itemize}
+    \item Conditions : \mintinline{javascript}{if}, \mintinline{javascript}{else}, \mintinline{javascript}{switch}.
+    \item Boucles : \mintinline{javascript}{for}, \mintinline{javascript}{while}.
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Exemple de conditions}
+\begin{minted}{javascript}
+let age = 18;
+
+if (age >= 18) {
+    console.log("Vous êtes majeur.");
+} else {
+    console.log("Vous êtes mineur.");
+}
+\end{minted}
+\end{frame}
+
+\begin{frame}[fragile]{Exemple de boucles}
+\begin{minted}{javascript}
+// Boucle for
+for (let i = 0; i < 5; i++) {
+    console.log("Itération : " + i);
+}
+
+// Boucle while
+let j = 0;
+while (j < 5) {
+    console.log("Itération : " + j);
+    j++;
+}
+\end{minted}
+\end{frame}
+
+\section{Résumé de l'Introduction à JavaScript}
+\begin{frame}{Résumé de l'Introduction à JavaScript}
+\begin{itemize}
+    \item Introduction à JavaScript et son écosystème.
+    \item Installation des outils nécessaires.
+    \item Syntaxe de base : variables, types de données, opérateurs.
+    \item Structures de contrôle : conditions et boucles.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Questions ?}
+\begin{center}
+\Large Des questions sur le contenu de l'Introduction à JavaScript ?
+\end{center}
+\end{frame}
+
+\end{document}

@@ -1,0 +1,14 @@
+\frametitle{Exemple de boucles}
+\begin{minted}{javascript}
+// Boucle for
+for (let i = 0; i < 5; i++) {
+    console.log("Itération : " + i);
+}
+
+// Boucle while
+let j = 0;
+while (j < 5) {
+    console.log("Itération : " + j);
+    j++;
+}
+\end{minted}

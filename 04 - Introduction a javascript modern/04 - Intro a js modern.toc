@@ -1,0 +1,5 @@
+\beamer@sectionintoc {1}{Introduction à ES6+}{3}{0}{1}
+\beamer@sectionintoc {2}{Promesses et gestion des erreurs}{7}{0}{2}
+\beamer@sectionintoc {3}{Async/Await}{9}{0}{3}
+\beamer@sectionintoc {4}{Requêtes HTTP avec Fetch}{11}{0}{4}
+\beamer@sectionintoc {5}{Résumé du Jour 4}{13}{0}{5}

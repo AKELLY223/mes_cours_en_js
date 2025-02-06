@@ -1,0 +1,14 @@
+\frametitle{Rappel sur async/await}
+\begin{minted}{javascript}
+    async function fetchData() {
+        try {
+            const reponse = await fetch("https://api.example.com/data");
+            const data = await reponse.json();
+            console.log(data);
+        } catch (erreur) {
+            console.error("Erreur :", erreur);
+        }
+    }
+
+    fetchData();
+    \end{minted}

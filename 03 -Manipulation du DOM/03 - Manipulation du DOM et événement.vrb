@@ -1,0 +1,21 @@
+\frametitle{Exemple de validation de formulaire}
+\begin{minted}{html}
+    <form id="monFormulaire">
+        <input type="text" id="nom" placeholder="Votre nom" required>
+        <input type="email" id="email" placeholder="Votre email" required>
+        <button type="submit">Soumettre</button>
+    </form>
+    <p id="erreur" style="color: red;"></p>
+    \end{minted}
+
+    \begin{minted}{javascript}
+    document.getElementById("monFormulaire").addEventListener("submit", function(event) {
+        let nom = document.getElementById("nom").value;
+        let email = document.getElementById("email").value;
+
+        if (nom === "" || email === "") {
+            document.getElementById("erreur").textContent = "Tous les champs sont obligatoires !";
+            event.preventDefault(); // Empêche la soumission du formulaire
+        }
+    });
+    \end{minted}

@@ -1,0 +1,14 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{// Déclaration de variables}
+\PYG{k+kd}{let}\PYG{+w}{ }\PYG{n+nx}{message}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}Bonjour, JavaScript!\PYGZdq{}}\PYG{p}{;}
+\PYG{k+kd}{const}\PYG{+w}{ }\PYG{n+nx}{PI}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mf}{3.14}\PYG{p}{;}
+
+\PYG{c+c1}{// Affichage dans la console}
+\PYG{n+nx}{console}\PYG{p}{.}\PYG{n+nx}{log}\PYG{p}{(}\PYG{n+nx}{message}\PYG{p}{);}
+
+\PYG{c+c1}{// Opérations de base}
+\PYG{k+kd}{let}\PYG{+w}{ }\PYG{n+nx}{a}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mf}{5}\PYG{p}{;}
+\PYG{k+kd}{let}\PYG{+w}{ }\PYG{n+nx}{b}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m+mf}{10}\PYG{p}{;}
+\PYG{k+kd}{let}\PYG{+w}{ }\PYG{n+nx}{somme}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nx}{a}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{n+nx}{b}\PYG{p}{;}
+\PYG{n+nx}{console}\PYG{p}{.}\PYG{n+nx}{log}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}La somme est : \PYGZdq{}}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{n+nx}{somme}\PYG{p}{);}
+\end{Verbatim}

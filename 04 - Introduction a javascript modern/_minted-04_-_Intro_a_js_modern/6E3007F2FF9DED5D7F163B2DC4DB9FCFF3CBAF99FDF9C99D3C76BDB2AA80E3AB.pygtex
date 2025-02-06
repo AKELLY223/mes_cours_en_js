@@ -1,0 +1,13 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{+w}{    }\PYG{k+kd}{const}\PYG{+w}{ }\PYG{n+nx}{personne}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{p}{\PYGZob{}}\PYG{+w}{ }\PYG{n+nx}{nom}\PYG{o}{:}\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}Alice\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nx}{age}\PYG{o}{:}\PYG{+w}{ }\PYG{l+m+mf}{25}\PYG{+w}{ }\PYG{p}{\PYGZcb{};}
+
+\PYG{+w}{    }\PYG{c+c1}{// Déstructuration d\PYGZsq{}un objet}
+\PYG{+w}{    }\PYG{k+kd}{const}\PYG{+w}{ }\PYG{p}{\PYGZob{}}\PYG{+w}{ }\PYG{n+nx}{nom}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nx}{age}\PYG{+w}{ }\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nx}{personne}\PYG{p}{;}
+\PYG{+w}{    }\PYG{n+nx}{console}\PYG{p}{.}\PYG{n+nx}{log}\PYG{p}{(}\PYG{n+nx}{nom}\PYG{p}{);}\PYG{+w}{ }\PYG{c+c1}{// \PYGZdq{}Alice\PYGZdq{}}
+\PYG{+w}{    }\PYG{n+nx}{console}\PYG{p}{.}\PYG{n+nx}{log}\PYG{p}{(}\PYG{n+nx}{age}\PYG{p}{);}\PYG{+w}{ }\PYG{c+c1}{// 25}
+
+\PYG{+w}{    }\PYG{c+c1}{// Déstructuration d\PYGZsq{}un tableau}
+\PYG{+w}{    }\PYG{k+kd}{const}\PYG{+w}{ }\PYG{n+nx}{nombres}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{p}{[}\PYG{l+m+mf}{1}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mf}{2}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m+mf}{3}\PYG{p}{];}
+\PYG{+w}{    }\PYG{k+kd}{const}\PYG{+w}{ }\PYG{p}{[}\PYG{n+nx}{premier}\PYG{p}{,}\PYG{+w}{ }\PYG{n+nx}{deuxieme}\PYG{p}{]}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nx}{nombres}\PYG{p}{;}
+\PYG{+w}{    }\PYG{n+nx}{console}\PYG{p}{.}\PYG{n+nx}{log}\PYG{p}{(}\PYG{n+nx}{premier}\PYG{p}{);}\PYG{+w}{ }\PYG{c+c1}{// 1}
+\end{Verbatim}

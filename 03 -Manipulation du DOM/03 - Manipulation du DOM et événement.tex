@@ -1,0 +1,148 @@
+\documentclass{beamer}
+\usepackage{minted}
+\usepackage{xcolor}
+\usetheme{Madrid}
+\setbeamertemplate{navigation symbols}{}
+
+
+% Configuration pour minted
+\definecolor{bgcolor}{rgb}{0.95, 0.95, 0.92}
+\setminted{
+    bgcolor=bgcolor,
+    frame=lines,
+    framesep=2mm,
+    linenos=true,
+    fontsize=\footnotesize
+}
+\title{Manipulation du DOM et événements}
+\author{\textbf{KELLY}  Abdoulaye}
+\institute{\textit{Mali\_Code}}
+\date{mlcode223@gmail.com}
+\begin{document}
+
+\begin{frame}
+    \titlepage
+    \end{frame}
+    
+    \begin{frame}{Manipulation du DOM et événements}
+    \tableofcontents
+    \end{frame}
+    
+    \section{Introduction au DOM}
+    \begin{frame}{Introduction au DOM}
+    \begin{itemize}
+        \item Le DOM (Document Object Model) représente la structure d'une page HTML.
+        \item JavaScript permet de manipuler le DOM pour modifier le contenu, la structure et le style d'une page web.
+        \item Accéder aux éléments avec des méthodes comme \mintinline{javascript}{getElementById}, \mintinline{javascript}{querySelector}.
+    \end{itemize}
+    \end{frame}
+    
+    \begin{frame}[fragile]{Exemple d'accès au DOM}
+    \begin{minted}{html}
+    <!-- Exemple de structure HTML -->
+    <div id="contenu">
+        <p id="message">Bonjour, monde !</p>
+        <button id="bouton">Cliquez-moi</button>
+    </div>
+    \end{minted}
+    
+    \begin{minted}{javascript}
+    // Accéder à un élément par son ID
+    let message = document.getElementById("message");
+    console.log(message.textContent); // "Bonjour, monde !"
+    \end{minted}
+    \end{frame}
+    
+    \section{Manipulation du DOM}
+    \begin{frame}{Manipulation du DOM}
+    \begin{itemize}
+        \item Modifier le contenu : \mintinline{javascript}{textContent}, \mintinline{javascript}{innerHTML}.
+        \item Modifier les styles : \mintinline{javascript}{style}.
+        \item Ajouter ou supprimer des éléments : \mintinline{javascript}{appendChild}, \mintinline{javascript}{removeChild}.
+    \end{itemize}
+    \end{frame}
+    
+    \begin{frame}[fragile]{Exemple de manipulation du DOM}
+    \begin{minted}{javascript}
+    // Modifier le contenu d'un élément
+    let message = document.getElementById("message");
+    message.textContent = "Nouveau message !";
+    
+    // Modifier le style
+    message.style.color = "red";
+    message.style.fontSize = "20px";
+    
+    // Ajouter un nouvel élément
+    let nouveauParagraphe = document.createElement("p");
+    nouveauParagraphe.textContent = "Ceci est un nouveau paragraphe.";
+    document.getElementById("contenu").appendChild(nouveauParagraphe);
+    \end{minted}
+    \end{frame}
+    
+    \section{Gestion des événements}
+    \begin{frame}{Gestion des événements}
+    \begin{itemize}
+        \item Les événements permettent de réagir aux actions de l'utilisateur (clics, saisie, etc.).
+        \item Méthodes : \mintinline{javascript}{addEventListener}.
+        \item Types d'événements : \mintinline{javascript}{click}, \mintinline{javascript}{mouseover}, \mintinline{javascript}{keydown}, etc.
+    \end{itemize}
+    \end{frame}
+    
+    \begin{frame}[fragile]{Exemple de gestion d'événement}
+    \begin{minted}{javascript}
+    // Ajouter un écouteur d'événement
+    let bouton = document.getElementById("bouton");
+    bouton.addEventListener("click", function() {
+        alert("Vous avez cliqué sur le bouton !");
+    });
+    \end{minted}
+    \end{frame}
+    
+    \section{Validation de formulaire}
+    \begin{frame}{Validation de formulaire}
+    \begin{itemize}
+        \item JavaScript permet de valider les données saisies dans un formulaire avant soumission.
+        \item Exemple : vérifier si un champ est vide ou si un email est valide.
+    \end{itemize}
+    \end{frame}
+    
+    \begin{frame}[fragile]{Exemple de validation de formulaire}
+    \begin{minted}{html}
+    <form id="monFormulaire">
+        <input type="text" id="nom" placeholder="Votre nom" required>
+        <input type="email" id="email" placeholder="Votre email" required>
+        <button type="submit">Soumettre</button>
+    </form>
+    <p id="erreur" style="color: red;"></p>
+    \end{minted}
+    
+    \begin{minted}{javascript}
+    document.getElementById("monFormulaire").addEventListener("submit", function(event) {
+        let nom = document.getElementById("nom").value;
+        let email = document.getElementById("email").value;
+    
+        if (nom === "" || email === "") {
+            document.getElementById("erreur").textContent = "Tous les champs sont obligatoires !";
+            event.preventDefault(); // Empêche la soumission du formulaire
+        }
+    });
+    \end{minted}
+    \end{frame}
+    
+    \section{Résumé sur Manipulation du DOM et événements}
+    \begin{frame}{Résumé sur Manipulation du DOM et événements}
+    \begin{itemize}
+        \item Introduction au DOM et accès aux éléments.
+        \item Manipulation du DOM : contenu, styles, ajout/suppression d'éléments.
+        \item Gestion des événements : clics, saisie, etc.
+        \item Validation de formulaire avec JavaScript.
+    \end{itemize}
+    \end{frame}
+    
+    \begin{frame}{Questions ?}
+    \begin{center}
+    \Large Des questions sur le contenu Manipulation du DOM et événements ?
+    \end{center}
+    \end{frame}
+
+\end{document}

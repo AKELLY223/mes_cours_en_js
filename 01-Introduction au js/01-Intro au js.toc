@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{Installation des outils}{3}{0}{1}
+\beamer@sectionintoc {2}{Syntaxe de base}{4}{0}{2}
+\beamer@sectionintoc {3}{Structures de contrôle}{6}{0}{3}
+\beamer@sectionintoc {4}{Résumé de l'Introduction à JavaScript}{9}{0}{4}

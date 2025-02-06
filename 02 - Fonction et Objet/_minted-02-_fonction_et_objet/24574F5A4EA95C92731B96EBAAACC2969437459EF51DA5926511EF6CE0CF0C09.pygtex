@@ -1,0 +1,14 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{// Création d\PYGZsq{}un objet}
+\PYG{k+kd}{const}\PYG{+w}{ }\PYG{n+nx}{personne}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{n+nx}{nom}\PYG{o}{:}\PYG{+w}{ }\PYG{l+s+s2}{\PYGZdq{}Alice\PYGZdq{}}\PYG{p}{,}
+\PYG{+w}{    }\PYG{n+nx}{age}\PYG{o}{:}\PYG{+w}{ }\PYG{l+m+mf}{25}\PYG{p}{,}
+\PYG{+w}{    }\PYG{n+nx}{saluer}\PYG{o}{:}\PYG{+w}{ }\PYG{k+kd}{function}\PYG{p}{()}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{        }\PYG{n+nx}{console}\PYG{p}{.}\PYG{n+nx}{log}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Bonjour, je m\PYGZsq{}appelle \PYGZdq{}}\PYG{+w}{ }\PYG{o}{+}\PYG{+w}{ }\PYG{k}{this}\PYG{p}{.}\PYG{n+nx}{nom}\PYG{p}{);}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+\PYG{p}{\PYGZcb{};}
+
+\PYG{c+c1}{// Accès aux propriétés}
+\PYG{n+nx}{console}\PYG{p}{.}\PYG{n+nx}{log}\PYG{p}{(}\PYG{n+nx}{personne}\PYG{p}{.}\PYG{n+nx}{nom}\PYG{p}{);}\PYG{+w}{ }\PYG{c+c1}{// \PYGZdq{}Alice\PYGZdq{}}
+\PYG{n+nx}{personne}\PYG{p}{.}\PYG{n+nx}{saluer}\PYG{p}{();}\PYG{+w}{ }\PYG{c+c1}{// \PYGZdq{}Bonjour, je m\PYGZsq{}appelle Alice\PYGZdq{}}
+\end{Verbatim}

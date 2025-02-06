@@ -1,0 +1,160 @@
+\documentclass{beamer}
+\usepackage{minted}
+\usepackage{xcolor}
+\usetheme{Madrid}
+\setbeamertemplate{navigation symbols}{}% Remove navigation symbols
+
+
+% Configuration pour minted
+\definecolor{bgcolor}{rgb}{0.95, 0.95, 0.92}
+\setminted{
+    bgcolor=bgcolor,
+    frame=lines,
+    framesep=2mm,
+    linenos=true,
+    fontsize=\footnotesize
+}
+\title{Fonctions et objets en JavaScript}
+\author{\textbf{KELLY}  Abdoulaye}
+\institute{\textit{Mali\_Code}}
+\date{mlcode223@gmail.com}
+\begin{document}
+
+\begin{frame}
+    \titlepage
+\end{frame}
+    
+\begin{frame}{Plan du Jour 2}
+    \tableofcontents
+\end{frame}
+
+
+
+\section{Fonctions en JavaScript}
+\begin{frame}{Fonctions en JavaScript}
+\begin{itemize}
+    \item Une fonction est un bloc de code réutilisable.
+    \item Déclaration avec \mintinline{javascript}{function} ou \mintinline{javascript}{const}.
+    \item Passage de paramètres et retour de valeurs.
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Exemple de fonction}
+\begin{minted}{javascript}
+// Déclaration d'une fonction
+function direBonjour(nom) {
+    return "Bonjour, " + nom + "!";
+}
+
+// Appel de la fonction
+let message = direBonjour("Alice");
+console.log(message); // "Bonjour, Alice!"
+\end{minted}
+\end{frame}
+
+\begin{frame}[fragile]{Fonctions fléchées (ES6+)}
+\begin{minted}{javascript}
+// Fonction fléchée
+const addition = (a, b) => {
+    return a + b;
+};
+
+// Version raccourcie
+const multiplication = (a, b) => a * b;
+
+console.log(addition(5, 3)); // 8
+console.log(multiplication(4, 2)); // 16
+\end{minted}
+\end{frame}
+
+\section{Portée des variables}
+\begin{frame}{Portée des variables}
+\begin{itemize}
+    \item \mintinline{javascript}{let} : portée de bloc.
+    \item \mintinline{javascript}{const} : portée de bloc, valeur constante.
+    \item \mintinline{javascript}{var} : portée de fonction (obsolète).
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Exemple de portée}
+\begin{minted}{javascript}
+if (true) {
+    let x = 10; // Portée de bloc
+    const y = 20; // Portée de bloc
+    var z = 30; // Portée de fonction
+}
+
+console.log(z); // 30 (var est accessible)
+console.log(x); // Erreur : x n'est pas défini
+console.log(y); // Erreur : y n'est pas défini
+\end{minted}
+\end{frame}
+
+\section{Objets en JavaScript}
+\begin{frame}{Objets en JavaScript}
+\begin{itemize}
+    \item Un objet est une collection de propriétés (clé-valeur).
+    \item Les propriétés peuvent être des fonctions (méthodes).
+    \item Syntaxe : \mintinline{javascript}{{ clé: valeur }}.
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Exemple d'objet}
+\begin{minted}{javascript}
+// Création d'un objet
+const personne = {
+    nom: "Alice",
+    age: 25,
+    saluer: function() {
+        console.log("Bonjour, je m'appelle " + this.nom);
+    }
+};
+
+// Accès aux propriétés
+console.log(personne.nom); // "Alice"
+personne.saluer(); // "Bonjour, je m'appelle Alice"
+\end{minted}
+\end{frame}
+
+\section{Tableaux et méthodes courantes}
+\begin{frame}{Tableaux en JavaScript}
+\begin{itemize}
+    \item Un tableau est une liste ordonnée d'éléments.
+    \item Méthodes courantes : \mintinline{javascript}{push}, \mintinline{javascript}{pop}, \mintinline{javascript}{map}, \mintinline{javascript}{filter}.
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Exemple de tableau}
+\begin{minted}{javascript}
+// Création d'un tableau
+let fruits = ["pomme", "banane", "orange"];
+
+// Ajout d'un élément
+fruits.push("kiwi");
+
+// Suppression du dernier élément
+fruits.pop();
+
+// Transformation avec map
+let longueurs = fruits.map(fruit => fruit.length);
+console.log(longueurs); // [5, 6, 6]
+\end{minted}
+\end{frame}
+
+\section{Résumé des Fonctions et objets en JavaScript}
+\begin{frame}{ Résumé des Fonctions et objets en JavaScript}
+\begin{itemize}
+    \item Fonctions : déclaration, paramètres, retour.
+    \item Portée des variables : \mintinline{javascript}{let}, \mintinline{javascript}{const}, \mintinline{javascript}{var}.
+    \item Objets : propriétés et méthodes.
+    \item Tableaux : manipulation et méthodes courantes.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Questions ?}
+\begin{center}
+\Large Des questions sur le contenu des Fonctions et objets en JavaScript ?
+\end{center}
+\end{frame}
+
+\end{document}

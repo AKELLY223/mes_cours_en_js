@@ -1,0 +1,174 @@
+\documentclass{beamer}
+\usepackage{minted}
+\usepackage{xcolor}
+\usetheme{Madrid}
+\setbeamertemplate{navigation symbols}{}
+
+
+
+% Configuration pour minted
+\definecolor{bgcolor}{rgb}{0.95, 0.95, 0.92}
+\setminted{
+    bgcolor=bgcolor,
+    frame=lines,
+    framesep=2mm,
+    linenos=true,
+    fontsize=\footnotesize
+}
+\title{Introduction à JavaScript Modernes}
+\author{\textbf{KELLY}  Abdoulaye}
+\institute{\textit{Mali\_Code}}
+\date{mlcode223@gmail.com}
+
+\begin{document}
+
+\begin{frame}
+    \titlepage
+    \end{frame}
+    
+    \begin{frame}{Plan de l'Introduction à ES6+}
+    \tableofcontents
+    \end{frame}
+    
+    \section{Introduction à ES6+}
+    \begin{frame}{Introduction à ES6+}
+    \begin{itemize}
+        \item ES6 (ECMAScript 2015) a introduit de nouvelles fonctionnalités pour JavaScript.
+        \item Fonctionnalités clés :
+            \begin{itemize}
+                \item Fonctions fléchées.
+                \item Template literals.
+                \item Déstructuration.
+                \item Classes.
+            \end{itemize}
+    \end{itemize}
+    \end{frame}
+    
+    \begin{frame}[fragile]{Fonctions fléchées}
+    \begin{minted}{javascript}
+    // Fonction traditionnelle
+    function addition(a, b) {
+        return a + b;
+    }
+    
+    // Fonction fléchée
+    const addition = (a, b) => a + b;
+    
+    console.log(addition(5, 3)); // 8
+    \end{minted}
+    \end{frame}
+    
+    \begin{frame}[fragile]{Template literals}
+    \begin{minted}{javascript}
+    const nom = "Alice";
+    const age = 25;
+    
+    // Utilisation de template literals
+    const message = `Bonjour, je m'appelle ${nom} et j'ai ${age} ans.`;
+    console.log(message); // "Bonjour, je m'appelle Alice et j'ai 25 ans."
+    \end{minted}
+    \end{frame}
+    
+    \begin{frame}[fragile]{Déstructuration}
+    \begin{minted}{javascript}
+    const personne = { nom: "Alice", age: 25 };
+    
+    // Déstructuration d'un objet
+    const { nom, age } = personne;
+    console.log(nom); // "Alice"
+    console.log(age); // 25
+    
+    // Déstructuration d'un tableau
+    const nombres = [1, 2, 3];
+    const [premier, deuxieme] = nombres;
+    console.log(premier); // 1
+    \end{minted}
+    \end{frame}
+    
+    \section{Promesses et gestion des erreurs}
+    \begin{frame}{Promesses en JavaScript}
+    \begin{itemize}
+        \item Une promesse représente une valeur qui peut être disponible maintenant, plus tard ou jamais.
+        \item États d'une promesse : `pending`, `fulfilled`, `rejected`.
+        \item Méthodes : \mintinline{javascript}{then}, \mintinline{javascript}{catch}, \mintinline{javascript}{finally}.
+    \end{itemize}
+    \end{frame}
+    
+    \begin{frame}[fragile]{Exemple de promesse}
+    \begin{minted}{javascript}
+    const maPromesse = new Promise((resolve, reject) => {
+        setTimeout(() => {
+            const succes = true;
+            if (succes) {
+                resolve("Opération réussie !");
+            } else {
+                reject("Erreur !");
+            }
+        }, 2000);
+    });
+    
+    maPromesse
+        .then(resultat => console.log(resultat)) // "Opération réussie !"
+        .catch(erreur => console.error(erreur)); // "Erreur !"
+    \end{minted}
+    \end{frame}
+    
+    \section{Async/Await}
+    \begin{frame}{Async/Await}
+    \begin{itemize}
+        \item \mintinline{javascript}{async} et \mintinline{javascript}{await} simplifient l'utilisation des promesses.
+        \item \mintinline{javascript}{async} déclare une fonction asynchrone.
+        \item \mintinline{javascript}{await} attend la résolution d'une promesse.
+    \end{itemize}
+    \end{frame}
+    
+    \begin{frame}[fragile]{Exemple de async/await}
+    \begin{minted}{javascript}
+    async function fetchData() {
+        try {
+            const reponse = await fetch("https://api.example.com/data");
+            const data = await reponse.json();
+            console.log(data);
+        } catch (erreur) {
+            console.error("Erreur :", erreur);
+        }
+    }
+    
+    fetchData();
+    \end{minted}
+    \end{frame}
+    
+    \section{Requêtes HTTP avec Fetch}
+    \begin{frame}{Requêtes HTTP avec Fetch}
+    \begin{itemize}
+        \item L'API `fetch` permet de faire des requêtes HTTP.
+        \item Syntaxe simple pour récupérer des données depuis une API.
+        \item Retourne une promesse.
+    \end{itemize}
+    \end{frame}
+    
+    \begin{frame}[fragile]{Exemple de fetch}
+    \begin{minted}{javascript}
+    fetch("https://api.example.com/data")
+        .then(reponse => reponse.json())
+        .then(data => console.log(data))
+        .catch(erreur => console.error("Erreur :", erreur));
+    \end{minted}
+    \end{frame}
+    
+    \section{Résumé du Jour 4}
+    \begin{frame}{Résumé du Jour 4}
+    \begin{itemize}
+        \item Fonctionnalités ES6+ : fonctions fléchées, template literals, déstructuration.
+        \item Promesses : gestion des opérations asynchrones.
+        \item Async/Await : simplification des promesses.
+        \item Requêtes HTTP avec `fetch`.
+    \end{itemize}
+    \end{frame}
+    
+    \begin{frame}{Questions ?}
+    \begin{center}
+    \Large Des questions sur le contenu de l'in ?
+    \end{center}
+    \end{frame}
+    \end{document}
