@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2025.1.12)  6 FEB 2025 10:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2025.1.12)  8 FEB 2025 17:14
 entering extended mode
 **"c:/Users/KELLY ABDOULAYE/Desktop/LatexDoc/Javascript/05 - Pratique/05 - Pratique des concepts apprise.tex"
 (c:/Users/KELLY ABDOULAYE/Desktop/LatexDoc/Javascript/05 - Pratique/05 - Pratique des concepts apprise.tex
@@ -727,24 +727,24 @@ File: l3backend-pdftex.def 2021-03-02 L3 backend support: PDF output (pdfTeX)
 ) (05 - Pratique des concepts apprise.aux)
 \openout1 = `"05 - Pratique des concepts apprise.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -797,7 +797,7 @@ LaTeX Font Info:    ... okay on input line 23.
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
 )
-Package hyperref Info: Link coloring OFF on input line 23.
+Package hyperref Info: Link coloring OFF on input line 26.
  (C:\Users\KELLY ABDOULAYE\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (C:\Users\KELLY ABDOULAYE\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
@@ -807,62 +807,62 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count364
 )
-LaTeX Info: Redefining \ref on input line 23.
-LaTeX Info: Redefining \pageref on input line 23.
-LaTeX Info: Redefining \nameref on input line 23.
+LaTeX Info: Redefining \ref on input line 26.
+LaTeX Info: Redefining \pageref on input line 26.
+LaTeX Info: Redefining \nameref on input line 26.
  (05 - Pratique des concepts apprise.out) (05 - Pratique des concepts apprise.out)
 \@outlinefile=\write7
 \openout7 = `"05 - Pratique des concepts apprise.out"'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 23.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 26.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 23.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 26.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 23.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 23.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 23.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 23.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 26.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 23.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 23.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 23.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 26.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 23.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 23.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 23.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 26.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 23.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 23.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 26.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 23.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 26.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 23.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 23.
+(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 23.
+(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 23.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 23.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 26.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 23.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 23.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 26.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 26.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 23.
+(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 26.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 23.
+(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 26.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on input line 23.
+(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on input line 26.
  (C:\Users\KELLY ABDOULAYE\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 ) (C:\Users\KELLY ABDOULAYE\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-bibliography-dictionary-English.dict
@@ -875,9 +875,15 @@ Dictionary: translator-months-dictionary, Language: English
 Dictionary: translator-numbers-dictionary, Language: English 
 ) (C:\Users\KELLY ABDOULAYE\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
-) (05 - Pratique des concepts apprise.nav) [1
+) (05 - Pratique des concepts apprise.nav)
+<logo.png, id=46, 3276.24pt x 3276.24pt>
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png  used on input line 30.
+(pdftex.def)             Requested size: 98.28296pt x 98.28296pt.
+ [1
 
-{C:/Users/KELLY ABDOULAYE/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] (05 - Pratique des concepts apprise.toc) [2
+{C:/Users/KELLY ABDOULAYE/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./logo.png>] (05 - Pratique des concepts apprise.toc) [2
 
 ] [3
 
@@ -894,7 +900,7 @@ LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <9> not available
 \openout5 = `05_-_Pratique_des_concepts_apprise.pyg'.
 
  (_minted-05_-_Pratique_des_concepts_apprise/93C629B610457ADCD5F8C18E048B54346A201F90A6479F842EEC43C7DBB28B1D.pygtex))
-Overfull \vbox (28.49153pt too high) detected at line 72
+Overfull \vbox (28.49153pt too high) detected at line 75
  []
 
 [4
@@ -942,17 +948,17 @@ runsystem(del 05_-_Pratique_des_concepts_apprise.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 23672 strings out of 479319
- 461732 string characters out of 2851627
- 779557 words of memory out of 3000000
- 40568 multiletter control sequences out of 15000+200000
+ 23679 strings out of 479319
+ 461807 string characters out of 2851627
+ 779628 words of memory out of 3000000
+ 40574 multiletter control sequences out of 15000+200000
  407670 words of font info for 42 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  131i,16n,132p,527b,622s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/KELLY ABDOULAYE/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmitt10.pfb><C:/Users/KELLY ABDOULAYE/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/KELLY ABDOULAYE/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/KELLY ABDOULAYE/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/KELLY ABDOULAYE/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/KELLY ABDOULAYE/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/KELLY ABDOULAYE/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on "05 - Pratique des concepts apprise.pdf" (11 pages, 113729 bytes).
+Output written on "05 - Pratique des concepts apprise.pdf" (11 pages, 461458 bytes).
 PDF statistics:
- 176 PDF objects out of 1000 (max. 8388607)
+ 179 PDF objects out of 1000 (max. 8388607)
  28 named destinations out of 1000 (max. 500000)
- 137 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 142 words of extra memory for PDF output out of 10000 (max. 10000000)
 
