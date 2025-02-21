@@ -1,0 +1,190 @@
+\documentclass[12pt]{article}
+
+\usepackage[a4paper, margin=1in]{geometry} % Configuration de la page
+\usepackage{fancyhdr} % Pour gérer l'en-tête
+\usepackage[utf8]{inputenc}
+\usepackage{enumitem}
+\usepackage{graphicx} % Pour les graphiques si besoin
+\usepackage{amsmath} 
+
+\pagestyle{fancy} % Style personnalisé pour l'en-tête
+\fancyhf{} % Efface les en-têtes et pieds de page
+
+% Personnalisation de l'en-tête
+\fancyhead[L]{\textbf{MaliCode}\\ Filière : Dev Web} % Gauche
+\fancyhead[R]{\textbf{Classe:  A1}\\ Module: JavaScript} % Droite
+
+% Barre horizontale sous l'en-tête
+\renewcommand{\headrulewidth}{0.5pt}
+\begin{document}
+% Titre centré sous l'en-tête
+\vspace*{0.3cm} % Espacement depuis l'en-tête
+\begin{center}
+    \title{Plan du Cours : JavaScript}
+    \date{\today}
+\end{center}
+
+\section*{Objectifs du cours}
+\begin{itemize}
+    \item Comprendre les fondamentaux de JavaScript.
+    \item Maîtriser la manipulation du DOM et les événements.
+    \item Découvrir les concepts avancés comme les promesses, async/await, et les modules.
+    \item Apprendre à interagir avec des APIs externes.
+    \item Initiation à des frameworks/libraries populaires (optionnel).
+\end{itemize}
+
+\section*{Semaine 1 : Introduction à JavaScript (3 heures)}
+\subsection*{Présentation de JavaScript }
+\begin{itemize}
+    \item Historique et rôle de JavaScript.
+    \item Différence entre JavaScript et autres langages.
+    \item Environnements d'exécution (navigateur, Node.js).
+\end{itemize}
+
+\subsection*{Bases du langage }
+\begin{itemize}
+    \item Syntaxe de base (variables, commentaires).
+    \item Types de données (nombres, chaînes, booléens, objets, tableaux).
+    \item Opérateurs (arithmétiques, de comparaison, logiques).
+\end{itemize}
+
+\section*{Semaine 2 : Structures de contrôle et fonctions (3 heures)}
+\subsection*{Structures de contrôle }
+\begin{itemize}
+    \item Conditions (if, else, switch).
+    \item Boucles (for, while, do...while).
+\end{itemize}
+
+\subsection*{Fonctions }
+\begin{itemize}
+    \item Déclaration et invocation de fonctions.
+    \item Paramètres et valeurs de retour.
+    \item Portée des variables (let, const, var).
+\end{itemize}
+
+\section*{Semaine 3 : Manipulation des tableaux et objets (3 heures)}
+\subsection*{Tableaux }
+\begin{itemize}
+    \item Méthodes courantes (push, pop, map, filter, reduce).
+    \item Parcourir un tableau.
+\end{itemize}
+
+\subsection*{Objets }
+\begin{itemize}
+    \item Création et manipulation d'objets.
+    \item Accéder aux propriétés.
+    \item Méthodes d'objets.
+\end{itemize}
+
+\section*{Semaine 4 : Introduction au DOM (3 heures)}
+\subsection*{Qu'est-ce que le DOM ? }
+\begin{itemize}
+    \item Structure du DOM.
+    \item Accéder aux éléments (getElementById, querySelector).
+\end{itemize}
+
+\subsection*{Manipulation du DOM }
+\begin{itemize}
+    \item Modifier le contenu et les styles.
+    \item Ajouter/supprimer des éléments.
+\end{itemize}
+
+\section*{Semaine 5 : Événements et interactions (3 heures)}
+\subsection*{Gestion des événements }
+\begin{itemize}
+    \item Écouteurs d'événements (addEventListener).
+    \item Types d'événements (clic, souris, clavier).
+\end{itemize}
+
+\subsection*{Formulaires et validation }
+\begin{itemize}
+    \item Interagir avec les formulaires.
+    \item Validation basique.
+\end{itemize}
+
+\section*{Semaine 6 : Programmation asynchrone (3 heures)}
+\subsection*{Callbacks }
+\begin{itemize}
+    \item Fonctions de rappel et leur utilisation.
+\end{itemize}
+
+\subsection*{Promesses}
+\begin{itemize}
+    \item Création et gestion des promesses.
+    \item Chaînage de promesses.
+\end{itemize}
+
+\subsection*{Async/Await }
+\begin{itemize}
+    \item Syntaxe et utilisation.
+\end{itemize}
+
+\section*{Semaine 7 : Manipulation des APIs (3 heures)}
+\subsection*{Requêtes HTTP }
+\begin{itemize}
+    \item Utilisation de fetch pour les requêtes AJAX.
+    \item Comprendre les réponses JSON.
+\end{itemize}
+
+\subsection*{Utilisation d'une API publique }
+\begin{itemize}
+    \item Exemple avec une API REST (ex : OpenWeatherMap, GitHub).
+\end{itemize}
+
+\section*{Semaine 8 : Modules et outils modernes (3 heures)}
+\subsection*{Modules JavaScript }
+\begin{itemize}
+    \item Import/export de modules.
+    \item Utilisation dans un projet.
+\end{itemize}
+
+\subsection*{Outils de développement }
+\begin{itemize}
+    \item Présentation de npm/yarn.
+    \item Utilisation de ESLint et Prettier.
+\end{itemize}
+
+\section*{Semaine 9 : Introduction aux frameworks (3 heures)}
+\subsection*{Présentation des frameworks }
+\begin{itemize}
+    \item Vue.js, React, ou Angular (au choix).
+\end{itemize}
+
+\subsection*{Initiation à un framework }
+\begin{itemize}
+    \item Installation et premier projet.
+    \item Composants et état.
+\end{itemize}
+
+\section*{Semaine 10 : Projet pratique (3 heures)}
+\subsection*{Conception d'un projet }
+\begin{itemize}
+    \item Définition des objectifs et planification.
+\end{itemize}
+
+\subsection*{Développement guidé }
+\begin{itemize}
+    \item Implémentation des fonctionnalités.
+\end{itemize}
+
+\section*{Semaine 11 : Bonnes pratiques et débogage (3 heures)}
+\subsection*{Bonnes pratiques de codage }
+\begin{itemize}
+    \item Code propre, commentaires, conventions.
+\end{itemize}
+
+\subsection*{Débogage }
+\begin{itemize}
+    \item Utilisation des outils de développement du navigateur.
+\end{itemize}
+
+\section*{Semaine 12 : Révision et examen (3 heures)}
+\subsection*{Révision des concepts clés .}
+\subsection*{Examen pratique ou présentation de projet .}
+
+
+\fancyfoot[L]{Mr Kelly} % Texte à gauche
+\fancyfoot[R]{+223 91 75 54 37} % Texte à droite
+\renewcommand{\footrulewidth}{0.4pt} % Ligne fine au-dessus du pied de page
+
+\end{document}
